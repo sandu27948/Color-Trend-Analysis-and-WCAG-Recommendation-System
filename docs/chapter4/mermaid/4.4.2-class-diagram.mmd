@@ -1,0 +1,60 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+classDiagram
+    class User {
+      +id: UUID
+      +name: string
+      +email: string
+      +passwordHash: string
+      +createdAt: datetime
+      +updatedAt: datetime
+    }
+
+    class AuthService {
+      +signup(name, email, password)
+      +login(email, password)
+      +verifyToken(token)
+      +logout(token)
+    }
+
+    class DatasetService {
+      +upload(dataset)
+      +updateRow(row)
+      +mergeRows(dataset)
+      +deleteRow(id)
+      +getData()
+    }
+
+    class AnalysisService {
+      +normalizeHex(color)
+      +getContrast(bg, text)
+      +getWCAGResult(bg, text)
+      +buildFrequency(data)
+      +buildYearWise(data)
+      +buildPlatformAnalysis(data)
+    }
+
+    class RecommendationService {
+      +recommendTextColor(bgColor)
+      +compareWhiteBlackContrast(bgColor)
+    }
+
+    class AuditService {
+      +auditUrls(urls)
+      +auditSingleWebsite(url)
+      +extractColorPairs()
+    }
+
+    class DataStore {
+      +dataset.json
+      +uploaded-data.json
+      +users.json
+      +supabase.colors
+    }
+
+    User --> AuthService : authenticates via
+    AuthService --> DataStore : reads/writes users
+    DatasetService --> DataStore : reads/writes dataset
+    AnalysisService --> DatasetService : consumes data
+    RecommendationService --> AnalysisService : uses contrast logic
+    AuditService --> AnalysisService : uses WCAG checks
+

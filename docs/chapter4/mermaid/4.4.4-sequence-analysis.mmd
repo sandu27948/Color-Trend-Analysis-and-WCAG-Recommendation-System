@@ -1,0 +1,17 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+sequenceDiagram
+    actor U as Designer
+    participant FE as Frontend Analysis Page
+    participant API as Backend API
+    participant AS as Analysis Service
+    participant DS as Supabase/Local Data
+
+    U->>FE: Open Analysis Page
+    FE->>API: GET /analysis
+    API->>DS: Fetch colors dataset
+    DS-->>API: Dataset rows
+    API->>AS: Build frequency, yearWise, WCAG stats
+    AS-->>API: Aggregated analysis result
+    API-->>FE: JSON analysis payload
+    FE-->>U: Render charts and trend summaries
+

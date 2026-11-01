@@ -1,0 +1,21 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+sequenceDiagram
+    actor U as Designer
+    participant FE as Frontend Dataset Page
+    participant API as Backend API
+    participant DS as Local/Supabase Data Store
+
+    U->>FE: Add or edit dataset row
+    FE->>API: PUT /update (row payload)
+    API->>API: Validate row and id
+    alt row exists
+      API->>DS: Update row in local JSON and Supabase
+      DS-->>API: Update confirmation
+      API-->>FE: 200 Row updated successfully
+    else new row
+      API->>DS: Insert new row
+      DS-->>API: Insert confirmation
+      API-->>FE: 200 Row created successfully
+    end
+    FE-->>U: Refresh table with latest data
+

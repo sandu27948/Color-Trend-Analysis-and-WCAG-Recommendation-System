@@ -1,0 +1,53 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+flowchart LR
+    subgraph Presentation_Layer
+      UI1[Dataset Management UI]
+      UI2[Analysis Dashboard UI]
+      UI3[Recommendation UI]
+      UI4[Auth/Profile UI]
+    end
+
+    subgraph Application_Layer
+      APP1[Auth Controller]
+      APP2[Dataset Controller]
+      APP3[Analysis Controller]
+      APP4[Recommendation Controller]
+      APP5[Audit Controller]
+    end
+
+    subgraph Intelligence_Layer
+      INT1[Color Normalization]
+      INT2[WCAG Contrast Engine]
+      INT3[Trend Aggregation]
+      INT4[K-Means Clustering]
+      INT5[Recommendation Logic]
+    end
+
+    subgraph Data_Layer
+      DB1[(Supabase colors)]
+      DB2[(uploaded-data.json)]
+      DB3[(users.json)]
+      DB4[(dataset.json fallback)]
+    end
+
+    UI1 --> APP2
+    UI2 --> APP3
+    UI3 --> APP4
+    UI4 --> APP1
+
+    APP3 --> INT1
+    APP3 --> INT2
+    APP3 --> INT3
+    APP3 --> INT4
+    APP4 --> INT1
+    APP4 --> INT2
+    APP4 --> INT5
+    APP5 --> INT2
+
+    APP2 --> DB1
+    APP2 --> DB2
+    APP1 --> DB3
+    APP3 --> DB1
+    APP3 --> DB2
+    APP3 --> DB4
+

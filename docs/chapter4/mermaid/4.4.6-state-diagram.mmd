@@ -1,0 +1,25 @@
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#1f6f99','lineColor':'#1f6f99','background':'#ffffff','mainBkg':'#ffffff','textColor':'#000000','edgeLabelBackground':'#ffffff','fontSize':'16px'}}}%%
+stateDiagram-v2
+    direction TB
+
+    [*] --> Guest
+    Guest --> Authenticated: Sign in
+    Guest --> Registered: Sign up
+    Registered --> Authenticated: Sign in
+    Authenticated --> Guest: Log out
+
+    state Authenticated {
+        direction LR
+        [*] --> Profile
+        Profile --> Dataset: Open dataset
+        Dataset --> Analysis: Open analysis
+        Analysis --> Recommendation: Open recommendations
+        Recommendation --> Audit: Open audit
+        Audit --> Profile: Back to profile
+    }
+
+    Authenticated --> Profile: Open profile
+    Dataset --> Authenticated: Back
+    Analysis --> Authenticated: Back
+    Recommendation --> Authenticated: Back
+    Audit --> Authenticated: Back

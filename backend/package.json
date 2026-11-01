@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "convert": "node convert-excel.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "playwright": "^1.54.2",
+    "xlsx": "^0.18.5"
+  }
+}

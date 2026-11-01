@@ -1,0 +1,35 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+flowchart LR
+    designer["Actor: UI/UX Designer"]
+    admin["Actor: Admin"]
+
+    subgraph system["Color Trend + WCAG Recommendation System"]
+      uc1([Register/Login])
+      uc2([Upload Dataset])
+      uc3([Update/Delete Dataset Row])
+      uc4([Analyze Color Trends])
+      uc5([Run WCAG Website Audit])
+      uc6([Generate Color Recommendation])
+      uc7([View Reports and Charts])
+      uc8([Manage Users and Data Backup])
+    end
+
+    designer --> uc1
+    designer --> uc2
+    designer --> uc3
+    designer --> uc4
+    designer --> uc5
+    designer --> uc6
+    designer --> uc7
+
+    admin --> uc1
+    admin --> uc2
+    admin --> uc3
+    admin --> uc7
+    admin --> uc8
+
+    uc4 -. uses .-> uc2
+    uc6 -. uses .-> uc4
+    uc7 -. summarizes .-> uc4
+    uc7 -. includes .-> uc6
+

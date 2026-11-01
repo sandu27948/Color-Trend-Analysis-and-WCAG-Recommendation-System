@@ -1,0 +1,15 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+flowchart TB
+    user["Designer / Admin\nWeb Browser"]
+    fe["Frontend Client\nReact (localhost:3000)"]
+    api["Backend Server\nNode.js + Express (localhost:5000)"]
+    supa["Supabase\ncolors table"]
+    local["Local JSON Storage\nuploaded-data.json\ndataset.json\nusers.json"]
+    ext["External Websites\n(for /audit/url)"]
+
+    user --> fe
+    fe --> api
+    api --> supa
+    api --> local
+    api --> ext
+

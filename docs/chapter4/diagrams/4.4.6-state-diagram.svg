@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Color Trend System State Diagram</title>
+  <desc id="desc">State diagram showing guest registration and sign in, authenticated access to profile, dataset, analysis, recommendation and audit, and return transitions.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#176b96"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#183b4d" flood-opacity="0.18"/>
+    </filter>
+    <style>
+      .background { fill: #f8fbfd; }
+      .title { fill: #173042; font: 700 26px 'Segoe UI', sans-serif; }
+      .section { fill: #5a7180; font: 700 16px 'Segoe UI', sans-serif; letter-spacing: 1px; }
+      .state { fill: #ffffff; stroke: #176b96; stroke-width: 2.5; rx: 10; filter: url(#shadow); }
+      .state-text { fill: #173042; font: 600 17px 'Segoe UI', sans-serif; text-anchor: middle; dominant-baseline: middle; }
+      .transition { fill: none; stroke: #176b96; stroke-width: 2.5; marker-end: url(#arrow); }
+      .label-bg { fill: #f8fbfd; }
+      .label { fill: #294654; font: 15px 'Segoe UI', sans-serif; text-anchor: middle; dominant-baseline: middle; }
+      .start { fill: #176b96; }
+      .start-line { fill: none; stroke: #176b96; stroke-width: 2.5; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect class="background" width="1200" height="760"/>
+  <text class="title" x="600" y="42" text-anchor="middle">Color Trend System State Diagram</text>
+  <text class="section" x="600" y="82" text-anchor="middle">AUTHENTICATION</text>
+  <text class="section" x="600" y="410" text-anchor="middle">AUTHENTICATED MODULES</text>
+
+  <circle class="start" cx="500" cy="112" r="9"/>
+  <path class="start-line" d="M500 121 V151"/>
+  <rect class="state" x="430" y="151" width="140" height="58"/>
+  <text class="state-text" x="500" y="180">Guest</text>
+
+  <rect class="state" x="700" y="245" width="160" height="58"/>
+  <text class="state-text" x="780" y="274">Registered</text>
+
+  <rect class="state" x="420" y="330" width="160" height="58"/>
+  <text class="state-text" x="500" y="359">Authenticated</text>
+
+  <path class="transition" d="M570 180 C650 180 700 210 700 245"/>
+  <rect class="label-bg" x="594" y="184" width="118" height="28"/>
+  <text class="label" x="653" y="198">Sign up</text>
+
+  <path class="transition" d="M780 303 C780 337 680 359 580 359"/>
+  <rect class="label-bg" x="676" y="319" width="90" height="28"/>
+  <text class="label" x="721" y="333">Sign in</text>
+
+  <path class="transition" d="M430 180 C350 180 285 260 285 330 C285 385 350 359 420 359"/>
+  <rect class="label-bg" x="207" y="246" width="152" height="28"/>
+  <text class="label" x="283" y="260">Sign in success</text>
+
+  <path class="transition" d="M420 374 C320 420 280 180 430 180"/>
+  <rect class="label-bg" x="286" y="388" width="104" height="28"/>
+  <text class="label" x="338" y="402">Log out</text>
+
+  <path class="transition" d="M500 388 V475"/>
+  <rect class="label-bg" x="451" y="418" width="98" height="28"/>
+  <text class="label" x="500" y="432">Open profile</text>
+
+  <rect class="state" x="55" y="520" width="150" height="62"/>
+  <text class="state-text" x="130" y="551">Profile</text>
+  <rect class="state" x="270" y="520" width="150" height="62"/>
+  <text class="state-text" x="345" y="551">Dataset</text>
+  <rect class="state" x="485" y="520" width="150" height="62"/>
+  <text class="state-text" x="560" y="551">Analysis</text>
+  <rect class="state" x="700" y="520" width="190" height="62"/>
+  <text class="state-text" x="795" y="551">Recommendation</text>
+  <rect class="state" x="955" y="520" width="150" height="62"/>
+  <text class="state-text" x="1030" y="551">Audit</text>
+
+  <path class="transition" d="M470 475 C390 475 345 475 345 520"/>
+  <rect class="label-bg" x="347" y="442" width="100" height="28"/>
+  <text class="label" x="397" y="456">Open dataset</text>
+
+  <path class="transition" d="M530 475 C525 490 560 496 560 520"/>
+  <rect class="label-bg" x="500" y="466" width="120" height="28"/>
+  <text class="label" x="560" y="480">Open analysis</text>
+
+  <path class="transition" d="M560 475 C620 475 795 465 795 520"/>
+  <rect class="label-bg" x="680" y="442" width="172" height="28"/>
+  <text class="label" x="766" y="456">Open recommendation</text>
+
+  <path class="transition" d="M795 582 V642 H1030 V582"/>
+  <rect class="label-bg" x="885" y="621" width="96" height="28"/>
+  <text class="label" x="933" y="635">Open audit</text>
+
+  <path class="transition" d="M1030 520 C1030 680 130 680 130 582"/>
+  <rect class="label-bg" x="544" y="664" width="116" height="28"/>
+  <text class="label" x="602" y="678">Back to profile</text>
+
+  <path class="transition" d="M345 520 C345 495 290 495 290 475 C290 430 410 430 420 359"/>
+  <rect class="label-bg" x="267" y="430" width="48" height="28"/>
+  <text class="label" x="291" y="444">Back</text>
+
+  <path class="transition" d="M560 520 C560 494 520 494 520 475"/>
+  <rect class="label-bg" x="491" y="492" width="48" height="28"/>
+  <text class="label" x="515" y="506">Back</text>
+
+  <path class="transition" d="M795 520 C795 494 740 494 740 475 C740 430 590 430 580 359"/>
+  <rect class="label-bg" x="708" y="492" width="48" height="28"/>
+  <text class="label" x="732" y="506">Back</text>
+
+  <path class="transition" d="M1030 520 C1030 485 920 485 920 465 C920 420 620 420 580 359"/>
+  <rect class="label-bg" x="896" y="438" width="48" height="28"/>
+  <text class="label" x="920" y="452">Back</text>
+</svg>

@@ -1,0 +1,25 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+flowchart TD
+    A([Start]) --> B[User logs in]
+    B --> C[Open Dataset Module]
+    C --> D{Upload new data?}
+    D -- Yes --> E[Submit dataset to API]
+    E --> F[Validate and store rows]
+    D -- No --> G[Load existing dataset]
+    F --> H[Request analysis]
+    G --> H
+
+    H --> I[Compute frequency, year-wise trend,
+    platform stats, WCAG pass/fail]
+    I --> J[Display charts and summaries]
+
+    J --> K{Need recommendation?}
+    K -- Yes --> L[User selects input color]
+    L --> M[System computes contrast with
+    white and black text]
+    M --> N[Return suggested text color + WCAG status]
+    K -- No --> O[View/export results]
+    N --> O
+
+    O --> P([End])
+

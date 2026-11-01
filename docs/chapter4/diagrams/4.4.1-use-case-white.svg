@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
+  <rect width="1200" height="820" fill="#ffffff"/>
+  <style>
+    .line { stroke: #000000; stroke-width: 3; fill: none; }
+    .actor { fill: #ffffff; stroke: #000000; stroke-width: 2; }
+    .usecase { fill: #ffffff; stroke: #000000; stroke-width: 2; }
+    .label { fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-anchor: middle; dominant-baseline: middle; }
+    .title { fill: #000000; font-family: Arial, Helvetica, sans-serif; font-size: 24px; font-weight: bold; text-anchor: middle; }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="13" markerHeight="13" refX="11" refY="5" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L12,5 L0,10 Z" fill="#000000"/>
+    </marker>
+  </defs>
+
+  <rect x="330" y="30" width="820" height="750" class="usecase"/>
+  <text x="740" y="65" class="title">Color Trend Analysis and WCAG Recommendation System</text>
+
+  <rect x="55" y="95" width="190" height="70" class="actor"/>
+  <text x="150" y="130" class="label">Data Curator</text>
+
+  <rect x="55" y="275" width="190" height="70" class="actor"/>
+  <text x="150" y="310" class="label">Researcher</text>
+
+  <rect x="55" y="475" width="190" height="70" class="actor"/>
+  <text x="150" y="510" class="label">UI/UX Designer</text>
+
+  <rect x="35" y="655" width="260" height="90" class="actor"/>
+  <text x="165" y="700" class="label">Accessibility Reviewer</text>
+
+  <rect x="600" y="105" width="260" height="65" rx="8" class="usecase"/>
+  <text x="730" y="137" class="label">Manage Dataset</text>
+
+  <rect x="540" y="230" width="350" height="65" rx="8" class="usecase"/>
+  <text x="715" y="262" class="label">Run K-Means Clustering</text>
+
+  <rect x="590" y="355" width="280" height="65" rx="8" class="usecase"/>
+  <text x="730" y="387" class="label">View Trend Analysis</text>
+
+  <rect x="475" y="480" width="510" height="75" rx="8" class="usecase"/>
+  <text x="730" y="517" class="label">Get WCAG Color Recommendation</text>
+
+  <rect x="555" y="635" width="360" height="65" rx="8" class="usecase"/>
+  <text x="735" y="667" class="label">Run Website Accessibility Audit</text>
+
+  <path d="M245 130 L600 137" class="line" marker-end="url(#arrow)"/>
+  <path d="M245 310 L600 137" class="line" marker-end="url(#arrow)"/>
+  <path d="M245 310 L540 262" class="line" marker-end="url(#arrow)"/>
+  <path d="M245 310 L590 387" class="line" marker-end="url(#arrow)"/>
+  <path d="M245 310 L475 517" class="line" marker-end="url(#arrow)"/>
+  <path d="M245 510 L590 387" class="line" marker-end="url(#arrow)"/>
+  <path d="M245 510 L475 517" class="line" marker-end="url(#arrow)"/>
+  <path d="M295 700 L475 517" class="line" marker-end="url(#arrow)"/>
+  <path d="M295 700 L555 667" class="line" marker-end="url(#arrow)"/>
+</svg>

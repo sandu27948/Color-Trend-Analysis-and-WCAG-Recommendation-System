@@ -1,0 +1,1626 @@
+[
+  {
+    "id": 1,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#336699",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 2,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#007BFF",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 3,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#FF6900",
+    "background": "#FFFFFF",
+    "text_color": "#777777"
+  },
+  {
+    "id": 4,
+    "Platform": "Web",
+    "Year": 2016,
+    "primary": "#000000",
+    "background": "#ddd9d6",
+    "text_color": "#000000"
+  },
+  {
+    "id": 5,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#b20f11",
+    "background": "#f7f7f7",
+    "text_color": "#352a2a"
+  },
+  {
+    "id": 6,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#6EC1E4",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 7,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#dd3333",
+    "background": "#ffffff",
+    "text_color": "#4a4a4a"
+  },
+  {
+    "id": 8,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "//",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 9,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#6EC1E4",
+    "background": "#FFFFFF",
+    "text_color": "#7A7A7A"
+  },
+  {
+    "id": 10,
+    "Platform": "Web",
+    "Year": 2015,
+    "primary": "#428bca",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 11,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#474747",
+    "background": "#FFFFFF",
+    "text_color": "#474747"
+  },
+  {
+    "id": 12,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#1e9ba3",
+    "background": "#ffffff",
+    "text_color": "#0a0f1c"
+  },
+  {
+    "id": 13,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#006666",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 14,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#58595b",
+    "background": "#ffffff",
+    "text_color": "#58595b"
+  },
+  {
+    "id": 15,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#DF0A70                           #df2f30",
+    "background": "#FFFFFF",
+    "text_color": "#808285"
+  },
+  {
+    "id": 16,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#2f57ef",
+    "background": "#e7f1f9",
+    "text_color": "#000000"
+  },
+  {
+    "id": 17,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#007bff",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 18,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#D90A2C",
+    "background": "#FFFFFF",
+    "text_color": "#0c1c28"
+  },
+  {
+    "id": 19,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#6366F1",
+    "background": "#F8FAFC",
+    "text_color": "#1E2937"
+  },
+  {
+    "id": 20,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#103371",
+    "background": "#FFFFFF",
+    "text_color": "#7A7A7A"
+  },
+  {
+    "id": 21,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#6EC1E4",
+    "background": "#FFFFFF",
+    "text_color": "#7A7A7A"
+  },
+  {
+    "id": 22,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#0d6efd",
+    "background": "#193486",
+    "text_color": "#212529"
+  },
+  {
+    "id": 23,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "//",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 24,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#0072CE",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 25,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#003366",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 26,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#005BAC",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 27,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#FF3D00",
+    "background": "#FFFFFF",
+    "text_color": "#444444",
+    "platform": "Web",
+    "year": "2023"
+  },
+  {
+    "id": 28,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#0077AA",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 29,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#20C997",
+    "background": "#FFFFFF",
+    "text_color": "#333333",
+    "platform": "Web",
+    "year": "2020"
+  },
+  {
+    "id": 30,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#006699",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 31,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#005BAC",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 32,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#FF9800",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 33,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 34,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#0077AA",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 35,
+    "Platform": "Mobile",
+    "Year": 2022,
+    "primary": "#FF9800",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 36,
+    "Platform": "Mobile",
+    "Year": 2024,
+    "primary": "#006699",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 37,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#0077AA",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 38,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 39,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#FF6F00",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 40,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#E91E63",
+    "background": "#FFFFFF",
+    "text_color": "#212529",
+    "platform": "Web",
+    "year": "2020"
+  },
+  {
+    "id": 41,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#FD7E14",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 42,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#0077AA",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 43,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#FF3D00",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 44,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#DC3545",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 45,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#DC3545",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 46,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 47,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#1A73E8",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 48,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#198754",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 49,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#FF6F00",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 50,
+    "Platform": "Mobile",
+    "Year": 2015,
+    "primary": "#20C997",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 51,
+    "Platform": "Mobile",
+    "Year": 2015,
+    "primary": "#2E8B57",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 52,
+    "Platform": "Mobile",
+    "Year": 2022,
+    "primary": "#0077AA",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 53,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#28A745",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 54,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#FD7E14",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 55,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#005BAC",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 56,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#006699",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 57,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#2E8B57",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 58,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#2E8B57",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 59,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#FF6F00",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 60,
+    "Platform": "Mobile",
+    "Year": 2016,
+    "primary": "#E91E63",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 61,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#DC3545",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 62,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#FD7E14",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 63,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#FF5733",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 64,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#FF5733",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 65,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#005BAC",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 66,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#2E8B57",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 67,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#FD7E14",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 68,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#E91E63",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 69,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#FF3D00",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 70,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#FF5733",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 71,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#FF6F00",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 72,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#28A745",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 73,
+    "Platform": "Mobile",
+    "Year": 2016,
+    "primary": "#20C997",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 74,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#FF6F00",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 75,
+    "Platform": "Mobile",
+    "Year": 2024,
+    "primary": "#FF9800",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 76,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#198754",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 77,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#FF5733",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 78,
+    "Platform": "Web",
+    "Year": 2015,
+    "primary": "#E91E63",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 79,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#1A73E8",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 80,
+    "Platform": "Mobile",
+    "Year": 2016,
+    "primary": "#005BAC",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 81,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#0077AA",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 82,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#FD7E14",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 83,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#20C997",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 84,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#FF5733",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 85,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#28A745",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 86,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#1A73E8",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 87,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#FF3D00",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 88,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#E91E63",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 89,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#FF5733",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 90,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 91,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#FD7E14",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 92,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#FF3D00",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 93,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#FD7E14",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 94,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#2E8B57",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 95,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#20C997",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 96,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#0077AA",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 97,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#E91E63",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 98,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#DC3545",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 99,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#0077AA",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 100,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#E91E63",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 101,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#0077AA",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 102,
+    "Platform": "Web",
+    "Year": 2015,
+    "primary": "#FF9800",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 103,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#FF3D00",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 104,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#FD7E14",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 105,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#005BAC",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 106,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#2E8B57",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 107,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#005BAC",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 108,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#FF3D00",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 109,
+    "Platform": "Mobile",
+    "Year": 2024,
+    "primary": "#198754",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 110,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#2E8B57",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 111,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#FF3D00",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 112,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#20C997",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 113,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#DC3545",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 114,
+    "Platform": "Mobile",
+    "Year": 2015,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 115,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#005BAC",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 116,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#006699",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 117,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#1A73E8",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 118,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#20C997",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 119,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#FD7E14",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 120,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#FD7E14",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 121,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#006699",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 122,
+    "Platform": "Web",
+    "Year": 2023,
+    "primary": "#E91E63",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 123,
+    "Platform": "Mobile",
+    "Year": 2016,
+    "primary": "#006699",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 124,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#FF3D00",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 125,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#0077AA",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 126,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#20C997",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 127,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#FF3D00",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 128,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#1A73E8",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 129,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#FF9800",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 130,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 131,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#DC3545",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 132,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#FF6F00",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 133,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#0077AA",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 134,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#198754",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 135,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#FF6F00",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 136,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#198754",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 137,
+    "Platform": "Mobile",
+    "Year": 2024,
+    "primary": "#FD7E14",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 138,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#0077AA",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 139,
+    "Platform": "Mobile",
+    "Year": 2015,
+    "primary": "#28A745",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 140,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#198754",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 141,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 142,
+    "Platform": "Mobile",
+    "Year": 2024,
+    "primary": "#005BAC",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 143,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#FF3D00",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 144,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#E91E63",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 145,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#FF6F00",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 146,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#20C997",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 147,
+    "Platform": "Mobile",
+    "Year": 2024,
+    "primary": "#20C997",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 148,
+    "Platform": "Web",
+    "Year": 2016,
+    "primary": "#FD7E14",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 149,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#DC3545",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 150,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#FF5733",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 151,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#DC3545",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 152,
+    "Platform": "Mobile",
+    "Year": 2015,
+    "primary": "#006699",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 153,
+    "Platform": "Mobile",
+    "Year": 2016,
+    "primary": "#FD7E14",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 154,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#1A73E8",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 155,
+    "Platform": "Mobile",
+    "Year": 2015,
+    "primary": "#FF9800",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 156,
+    "Platform": "Mobile",
+    "Year": 2016,
+    "primary": "#28A745",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 157,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#FF9800",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 158,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#20C997",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 159,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#1A73E8",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 160,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#2E8B57",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 161,
+    "Platform": "Web",
+    "Year": 2016,
+    "primary": "#198754",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 162,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#0077AA",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 163,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#FF3D00",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 164,
+    "Platform": "Mobile",
+    "Year": 2018,
+    "primary": "#2E8B57",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 165,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#FF3D00",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 166,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#0077AA",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 167,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#005BAC",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 168,
+    "Platform": "Web",
+    "Year": 2016,
+    "primary": "#2E8B57",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 169,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#2E8B57",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 170,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#005BAC",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 171,
+    "Platform": "Mobile",
+    "Year": 2016,
+    "primary": "#E91E63",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 172,
+    "Platform": "Mobile",
+    "Year": 2025,
+    "primary": "#FD7E14",
+    "background": "#F5F5F5",
+    "text_color": "#333333"
+  },
+  {
+    "id": 173,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#FF9800",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 174,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#FF9800",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 175,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#28A745",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 176,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#005BAC",
+    "background": "#F8F9FA",
+    "text_color": "#333333"
+  },
+  {
+    "id": 177,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#20C997",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 178,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#28A745",
+    "background": "#FFFFFF",
+    "text_color": "#212529"
+  },
+  {
+    "id": 179,
+    "Platform": "Mobile",
+    "Year": 2020,
+    "primary": "#FF9800",
+    "background": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  {
+    "id": 180,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#20C997",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 181,
+    "Platform": "Web",
+    "Year": 2015,
+    "primary": "#FF5733",
+    "background": "#F8F9FA",
+    "text_color": "#000000"
+  },
+  {
+    "id": 182,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#E91E63",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 183,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#198754",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 184,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#FD7E14",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 185,
+    "Platform": "Mobile",
+    "Year": 2021,
+    "primary": "#FD7E14",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 186,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#FF9800",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 187,
+    "Platform": "Web",
+    "Year": 2020,
+    "primary": "#198754",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 188,
+    "Platform": "Mobile",
+    "Year": 2019,
+    "primary": "#006699",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 189,
+    "Platform": "Mobile",
+    "Year": 2023,
+    "primary": "#1A73E8",
+    "background": "#F8F9FA",
+    "text_color": "#444444"
+  },
+  {
+    "id": 190,
+    "Platform": "Mobile",
+    "Year": 2015,
+    "primary": "#006699",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 191,
+    "Platform": "Web",
+    "Year": 2018,
+    "primary": "#28A745",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 192,
+    "Platform": "Web",
+    "Year": 2022,
+    "primary": "#2E8B57",
+    "background": "#F5F5F5",
+    "text_color": "#000000"
+  },
+  {
+    "id": 193,
+    "Platform": "Mobile",
+    "Year": 2017,
+    "primary": "#20C997",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 194,
+    "Platform": "Web",
+    "Year": 2021,
+    "primary": "#006699",
+    "background": "#FFFFFF",
+    "text_color": "#444444"
+  },
+  {
+    "id": 195,
+    "Platform": "Web",
+    "Year": 2015,
+    "primary": "#FF9800",
+    "background": "#F5F5F5",
+    "text_color": "#444444"
+  },
+  {
+    "id": 196,
+    "Platform": "Web",
+    "Year": 2019,
+    "primary": "#1A73E8",
+    "background": "#FFFFFF",
+    "text_color": "#333333"
+  },
+  {
+    "id": 197,
+    "Platform": "Web",
+    "Year": 2024,
+    "primary": "#198754",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 198,
+    "Platform": "Web",
+    "Year": 2017,
+    "primary": "#FF6F00",
+    "background": "#F8F9FA",
+    "text_color": "#212529"
+  },
+  {
+    "id": 199,
+    "Platform": "Web",
+    "Year": 2015,
+    "primary": "#0077AA",
+    "background": "#F5F5F5",
+    "text_color": "#212529"
+  },
+  {
+    "id": 200,
+    "Platform": "Web",
+    "Year": 2025,
+    "primary": "#FD7E15",
+    "background": "#F5F5F5",
+    "text_color": "#212529",
+    "platform": "Web",
+    "year": "2025"
+  },
+  {
+    "id": 201,
+    "platform": "web",
+    "year": "2025",
+    "primary": "#000000",
+    "background": "#000000",
+    "text_color": "#0000EE"
+  },
+  {
+    "id": 202,
+    "platform": "web",
+    "year": "2025",
+    "primary": "#FF6900",
+    "background": "#FF6900",
+    "text_color": "#242424"
+  }
+]

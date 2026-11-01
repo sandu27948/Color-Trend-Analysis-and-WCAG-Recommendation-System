@@ -1,0 +1,21 @@
+﻿%%{init: {'theme':'base','themeVariables':{'primaryColor':'#ffffff','primaryTextColor':'#000000','primaryBorderColor':'#000000','lineColor':'#000000','secondaryColor':'#ffffff','tertiaryColor':'#ffffff','background':'#ffffff','mainBkg':'#ffffff','secondBkg':'#ffffff','tertiaryBkg':'#ffffff','textColor':'#000000','nodeBorder':'#000000','clusterBkg':'#ffffff','clusterBorder':'#000000','defaultLinkColor':'#000000','actorBkg':'#ffffff','actorBorder':'#000000','actorTextColor':'#000000','labelBoxBkgColor':'#ffffff','labelTextColor':'#000000','edgeLabelBackground':'#ffffff'}}}%%
+sequenceDiagram
+    actor U as Designer
+    participant FE as Frontend Recommendation Page
+    participant API as Backend API
+    participant RS as Recommendation Logic
+
+    U->>FE: Enter or pick HEX color
+    FE->>API: GET /recommend/:color
+    API->>RS: normalizeHex(color)
+    alt invalid HEX
+      RS-->>API: invalid
+      API-->>FE: 400 Invalid HEX format
+      FE-->>U: Show validation error
+    else valid HEX
+      RS->>RS: Compare contrast with #FFFFFF and #000000
+      RS-->>API: suggestedText, contrast, status
+      API-->>FE: 200 Recommendation payload
+      FE-->>U: Show WCAG result and preview
+    end
+
